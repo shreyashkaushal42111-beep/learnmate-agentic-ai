@@ -1,0 +1,224 @@
+{
+  "domains": {
+    "Frontend Development": {
+      "description": "Build interactive and responsive web interfaces using modern technologies.",
+      "levels": {
+        "beginner": [
+          "HTML5 Fundamentals: tags, semantic structure, forms, tables",
+          "CSS3 Basics: selectors, box model, colors, fonts, backgrounds",
+          "Responsive Design: flexbox, CSS Grid, media queries",
+          "JavaScript Basics: variables, data types, conditionals, loops",
+          "DOM Manipulation: querySelector, events, innerHTML",
+          "Introduction to Git and GitHub: init, commit, push, pull requests",
+          "Debugging with Browser DevTools",
+          "Building static HTML/CSS pages: portfolio, landing pages"
+        ],
+        "intermediate": [
+          "ES6+ JavaScript: arrow functions, destructuring, spread, promises, async/await",
+          "Fetch API and REST: GET, POST, handling JSON responses",
+          "React.js Fundamentals: JSX, components, props, state, hooks (useState, useEffect)",
+          "React Router: SPA navigation, dynamic routes, nested routes",
+          "State Management with Context API and Redux Toolkit",
+          "CSS Preprocessors: SASS/SCSS variables, nesting, mixins",
+          "Component Libraries: Material UI, Tailwind CSS integration",
+          "Testing with Jest and React Testing Library",
+          "Webpack and Vite: bundling, hot reload, build optimization",
+          "TypeScript basics for React projects"
+        ],
+        "advanced": [
+          "Advanced React Patterns: render props, compound components, custom hooks",
+          "Performance Optimization: React.memo, useMemo, useCallback, lazy loading",
+          "Next.js: SSR, SSG, ISR, API routes, App Router",
+          "Micro-frontend Architecture and Module Federation",
+          "GraphQL with Apollo Client: queries, mutations, subscriptions",
+          "Web Accessibility (WCAG 2.1): ARIA, keyboard nav, screen readers",
+          "Progressive Web Apps (PWA): service workers, caching, offline support",
+          "CI/CD Pipelines for Frontend: GitHub Actions, Netlify, Vercel",
+          "Advanced TypeScript: generics, decorators, utility types",
+          "WebSockets and Real-Time UI with Socket.io"
+        ]
+      },
+      "projects": {
+        "beginner": ["Personal portfolio website", "Responsive product landing page"],
+        "intermediate": ["Weather app with React + OpenWeather API", "E-commerce product listing with cart"],
+        "advanced": ["Full-stack Next.js blog with CMS", "Real-time collaborative whiteboard app"]
+      }
+    },
+    "Cybersecurity": {
+      "description": "Protect systems, networks, and data from digital attacks and unauthorized access.",
+      "levels": {
+        "beginner": [
+          "Introduction to Cybersecurity: CIA triad, threat landscape, attack vectors",
+          "Networking Fundamentals: TCP/IP, DNS, HTTP/HTTPS, OSI model",
+          "Operating System Basics: Linux command line, file permissions, processes",
+          "Security Principles: least privilege, defense in depth, zero trust",
+          "Password Security: hashing, salting, multi-factor authentication",
+          "Common Threats: phishing, malware, ransomware, social engineering",
+          "Introduction to Cryptography: symmetric vs asymmetric, TLS/SSL",
+          "Security Best Practices for everyday users"
+        ],
+        "intermediate": [
+          "Network Security: firewalls, VPNs, IDS/IPS, network scanning with Nmap",
+          "Web Application Security: OWASP Top 10, SQL injection, XSS, CSRF",
+          "Penetration Testing Basics: methodologies, Kali Linux, Metasploit",
+          "Ethical Hacking Lifecycle: reconnaissance, scanning, exploitation, reporting",
+          "Security Information and Event Management (SIEM): Splunk basics",
+          "Incident Response: detection, containment, eradication, recovery",
+          "Digital Forensics: evidence collection, disk imaging, log analysis",
+          "Cloud Security Fundamentals: AWS/Azure shared responsibility model",
+          "Vulnerability Assessment with Nessus and OpenVAS",
+          "Python scripting for automation of security tasks"
+        ],
+        "advanced": [
+          "Advanced Penetration Testing: Active Directory attacks, lateral movement",
+          "Red Team vs Blue Team Operations",
+          "Malware Analysis: static and dynamic analysis, reverse engineering basics",
+          "Exploit Development: buffer overflows, shellcoding, ROP chains",
+          "Threat Intelligence and Hunting: MITRE ATT&CK framework",
+          "Zero-Day Research and Responsible Disclosure",
+          "Secure DevOps (DevSecOps): SAST, DAST, container security",
+          "Cryptography Deep Dive: PKI, certificate management, HSMs",
+          "Compliance Frameworks: ISO 27001, SOC 2, NIST CSF",
+          "Building a Security Operations Center (SOC)"
+        ]
+      },
+      "projects": {
+        "beginner": ["Home network security audit", "Phishing email identification exercise"],
+        "intermediate": ["Capture The Flag (CTF) challenges", "Build a basic port scanner in Python"],
+        "advanced": ["Penetration test report on vulnerable VM (Metasploitable)", "Threat hunting lab with Elastic SIEM"]
+      }
+    },
+    "UI/UX Design": {
+      "description": "Design intuitive, user-centered digital experiences across web and mobile platforms.",
+      "levels": {
+        "beginner": [
+          "Introduction to UX Design: user-centered design, design thinking process",
+          "UI vs UX: understanding the difference and overlap",
+          "Design Principles: hierarchy, contrast, alignment, proximity, repetition",
+          "Color Theory: color wheels, palettes, accessibility contrast ratios",
+          "Typography: font pairing, readability, type scale",
+          "Introduction to Figma: frames, shapes, text, auto layout basics",
+          "User Research Basics: interviews, surveys, personas",
+          "Information Architecture: sitemaps, card sorting, navigation patterns"
+        ],
+        "intermediate": [
+          "Wireframing and Prototyping: low-fi to hi-fi, Figma prototypes",
+          "Component Design Systems: Atomic Design, reusable components in Figma",
+          "Mobile Design: iOS and Android guidelines, touch targets, gestures",
+          "Usability Testing: moderated/unmoderated sessions, task analysis",
+          "Accessibility in Design: WCAG guidelines, inclusive design patterns",
+          "User Flows and Journey Mapping",
+          "Microinteractions and Motion Design principles",
+          "Heuristic Evaluation: Nielsen's 10 heuristics",
+          "Data-Driven Design: analytics interpretation, A/B testing basics",
+          "Handoff to Developers: Figma inspect, CSS exports, design tokens"
+        ],
+        "advanced": [
+          "Advanced Figma: variables, conditionals, advanced prototyping",
+          "Design System Architecture: token management, versioning, governance",
+          "Strategic UX: aligning design with business KPIs and OKRs",
+          "Quantitative UX Research: surveys at scale, statistical significance",
+          "Service Design: blueprints, ecosystem mapping, organizational alignment",
+          "Emotional Design and Persuasive UI patterns",
+          "Cross-platform Design: responsive, adaptive, multi-device strategies",
+          "UX Writing and Content Strategy",
+          "Design Sprints and Rapid Ideation facilitation",
+          "AI-augmented Design workflows and tools"
+        ]
+      },
+      "projects": {
+        "beginner": ["Redesign a confusing app screen", "Create a personal design portfolio in Figma"],
+        "intermediate": ["Mobile app UX for a food delivery service", "Design system for a SaaS dashboard"],
+        "advanced": ["End-to-end product design with research, testing, and iteration", "Design sprint facilitation and case study"]
+      }
+    },
+    "Data Science": {
+      "description": "Extract insights and build predictive models from structured and unstructured data.",
+      "levels": {
+        "beginner": [
+          "Python for Data Science: NumPy, Pandas basics, data types",
+          "Data Cleaning: handling nulls, duplicates, type casting",
+          "Exploratory Data Analysis (EDA): descriptive statistics, distributions",
+          "Data Visualization: Matplotlib, Seaborn, basic chart types",
+          "Introduction to Statistics: mean, median, variance, normal distribution",
+          "SQL for Data Analysis: SELECT, GROUP BY, JOINs, subqueries",
+          "Jupyter Notebooks: environment setup, markdown, cells",
+          "Introduction to Machine Learning concepts: supervised vs unsupervised"
+        ],
+        "intermediate": [
+          "Supervised Learning: linear regression, logistic regression, decision trees",
+          "Model Evaluation: confusion matrix, precision, recall, F1, ROC-AUC",
+          "Ensemble Methods: Random Forest, Gradient Boosting, XGBoost",
+          "Feature Engineering: encoding, scaling, feature selection",
+          "Unsupervised Learning: K-Means, DBSCAN, PCA",
+          "Natural Language Processing (NLP): tokenization, TF-IDF, sentiment analysis",
+          "Time Series Analysis: ARIMA, seasonal decomposition",
+          "Data Pipelines: ETL with Python, Airflow basics",
+          "Scikit-learn deep dive: pipelines, cross-validation, GridSearchCV",
+          "Introduction to Deep Learning: neural networks, Keras/TensorFlow"
+        ],
+        "advanced": [
+          "Deep Learning Architectures: CNNs, RNNs, LSTMs, Transformers",
+          "Transfer Learning and Fine-tuning pre-trained models",
+          "MLOps: model versioning, MLflow, deployment with FastAPI",
+          "Big Data Processing: PySpark, Databricks, distributed computing",
+          "Advanced NLP: BERT, GPT fine-tuning, embeddings, RAG pipelines",
+          "Causal Inference and Experiment Design",
+          "Bayesian Statistics and probabilistic programming",
+          "Recommender Systems: collaborative filtering, matrix factorization",
+          "Graph Neural Networks and knowledge graphs",
+          "Responsible AI: fairness, explainability (SHAP, LIME), bias auditing"
+        ]
+      },
+      "projects": {
+        "beginner": ["EDA on Titanic or Iris dataset", "Sales trend visualization dashboard"],
+        "intermediate": ["Customer churn prediction model", "Movie recommendation system"],
+        "advanced": ["End-to-end MLOps pipeline with model monitoring", "Fine-tuned LLM for domain-specific Q&A"]
+      }
+    },
+    "Cloud Computing": {
+      "description": "Design, deploy and manage scalable applications on cloud infrastructure.",
+      "levels": {
+        "beginner": [
+          "Cloud Concepts: IaaS, PaaS, SaaS, deployment models (public, private, hybrid)",
+          "Introduction to AWS: IAM, EC2, S3, RDS basics",
+          "Linux Administration: shell scripting, cron jobs, permissions",
+          "Networking on Cloud: VPC, subnets, security groups, NAT gateways",
+          "Storage Solutions: object storage, block storage, file storage",
+          "Cloud Billing and Cost Management basics",
+          "Introduction to Docker: images, containers, Dockerfile",
+          "Version Control with Git for cloud projects"
+        ],
+        "intermediate": [
+          "Container Orchestration: Kubernetes pods, deployments, services, ingress",
+          "Serverless Computing: AWS Lambda, API Gateway, event-driven architecture",
+          "Infrastructure as Code: Terraform basics, state management, modules",
+          "CI/CD on Cloud: CodePipeline, GitHub Actions, Jenkins",
+          "Cloud Databases: DynamoDB, Aurora, RDS multi-AZ, read replicas",
+          "Monitoring and Logging: CloudWatch, Prometheus, Grafana",
+          "Cloud Security: KMS, Secrets Manager, WAF, Shield",
+          "Microservices Architecture: design patterns, service mesh (Istio)",
+          "Message Queues: SQS, SNS, EventBridge, pub/sub patterns",
+          "Multi-cloud Strategies and hybrid deployments"
+        ],
+        "advanced": [
+          "Advanced Kubernetes: Helm charts, operators, custom controllers, GitOps",
+          "Platform Engineering: Internal Developer Platforms, Backstage",
+          "FinOps: cloud cost optimization, reserved instances, savings plans",
+          "Site Reliability Engineering (SRE): SLOs, SLIs, error budgets",
+          "Zero Downtime Deployments: blue/green, canary, feature flags",
+          "Data Engineering on Cloud: Glue, Redshift, Lakehouse architecture",
+          "Edge Computing and CDN architectures",
+          "Advanced Security: GuardDuty, Security Hub, compliance automation",
+          "Cloud-native AI/ML pipelines: SageMaker, Vertex AI",
+          "Designing for disaster recovery and high availability"
+        ]
+      },
+      "projects": {
+        "beginner": ["Deploy a static website on S3 with CloudFront", "Launch a Linux EC2 instance with Nginx"],
+        "intermediate": ["Containerized microservice deployed on EKS", "Serverless REST API with Lambda + DynamoDB"],
+        "advanced": ["Multi-region HA architecture with DR strategy", "Full GitOps pipeline with ArgoCD on Kubernetes"]
+      }
+    }
+  }
+}

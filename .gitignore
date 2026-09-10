@@ -1,0 +1,17 @@
+﻿# Environment / secrets - never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Auto-generated data stores
+chroma_db/
+learnmate.db
+
+# Streamlit
+.streamlit/secrets.toml

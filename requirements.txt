@@ -1,0 +1,19 @@
+# LearnMate — Python dependencies
+
+# IBM watsonx.ai SDK
+ibm-watsonx-ai>=1.1.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Sentence embeddings (local, no GPU required)
+sentence-transformers>=3.0.0
+
+# UI
+streamlit>=1.35.0
+
+# Utilities (standard library sqlite3 is used for memory, no extra DB driver needed)
+python-dotenv>=1.0.0
+
+# PDF generation
+fpdf2>=2.7.0
